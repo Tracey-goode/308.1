@@ -5,7 +5,7 @@ const n2 = 15;
 const n3 = 20;
 const n4 = 5;
 
-// Example Problem
+// // Example Problem
 const isSum50 = (n1 + n2 + n3 + n4) == 50;
 const isTwoOdd = (n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2;
 const isUnder25 = n1 < 25 || n2 < 25 || n3 < 25 || n4 < 25;
@@ -20,7 +20,7 @@ console.log(isdivisible);
 const isover10 = (n1 > n4);
 console.log(isover10)
 // true
-console.log(((n1 - n2) * n3) % n4);
+console.log(((n2 - 1) * n3) % n4);
 // -0
 
 
@@ -38,13 +38,26 @@ let gal3 = "23"
 const budget = 175;
 const cost = 3;
 
-console.log(gal1 * mile0);
-console.log(gal2 * mile0);
-console.log(gal3 * mile0);
-//45,000
-  42,000
-  34,500
+console.log(mile0 / gal1); //50
+console.log(mile0 / gal2); //53.57
+console.log(mile0 / gal3); //65.21
 
-const Totalcost()
+if (3*(mile0 / gal1)<=175){
+  console.log("true")
+} else {
+  console.log("No")
+} // true
 
-// Part 3 - Future Exploration
+if (3*(mile0 / gal2)<=175){
+  console.log("true")
+} else {
+  console.log("No")
+} // true
+
+if (3*(mile0 / gal3)<=175){
+  console.log("true")
+} else {
+  console.log("No")
+} // no
+
+
